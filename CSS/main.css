@@ -1,0 +1,35 @@
+body {
+    background-color: lightgray; 
+    
+}
+
+nav, footer {
+    background-color: black;
+}
+
+.hero {
+    background-color: white;
+    width: 30%; 
+    padding: 20px;
+    text-align: center;
+    margin-top: 10%; 
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+
+}
+ul, li {
+    list-style-type: none; 
+    display: inline-block; 
+    color: white;
+    margin: 0 40px; 
+    padding: 20px 0;
+}
+
+footer {
+    position:fixed;
+    bottom: 0;
+    width: 100%
+}
